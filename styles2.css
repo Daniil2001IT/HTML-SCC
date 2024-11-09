@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+Elbasan&family=Playwrite+GB+S:ital,wght@1,100&family=Protest+Guerrilla&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+body {
+    background: #fff;
+    /*background: aqua;*/
+    color: black;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+
+
+.avatar {
+    border-radius: 25px;
+    width: 220px;
+    box-shadow: 4px 4px 16px;
+    margin: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info p {
+    color: gray;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.info-text {
+    margin-left: 6px;
+    margin-top: 30px;
+
+}
+
+.info h4 {
+    margin-bottom: 20px;
+}
+
+
+.bg-color1 {
+    background: darksalmon;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.bg-color2 {
+    background: aquamarine;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.bg-color3 {
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.card {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.a1 {
+    color: black;
+}
+
+
+.a1:hover {
+    text-decoration: underline;
+}
+
+
+.a1:active {
+    color: red;
+}
+
+
+.a1:visited {
+    color: rgb(76, 0, 255);
+}
+
+
+.list {
+    padding: 0px 50px;
+   
+}
+
+
+.list li {
+    padding-bottom: 10px;
+    
+}
+
+
+.h2-YoutubeCurs {
+ padding: 0px 20px;   
+}
+
+
+.Hobby{
+ padding: 0px 20px;   
+}
+
+
+.tayble {
+    width: 100%;
+    padding: 10px;
+    background: cadetblue;
+   
+    border: 10px solid red;
+    border-bottom-style: groove;
+    border-bottom-color: black;
+    border-bottom-width: 20px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+
+    border-top-style: inset;
+    border-top-color: green;
+    border-top-width: 20px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+
+    border-left-style: inset;
+    border-left-color: blueviolet;
+    border-left-width: 20px;
+
+
+    border-right-style: groove;
+    border-right-color: red;
+    border-right-width: 20px;
+}
+
+
+.tayble td {
+    padding-bottom: 20px;
+    padding: 10px 20px;
+
+
+}
+
+.tayble td:nth-child(1) {
+    background: aqua;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.tayble td:nth-child(2) {
+    background: burlywood;
+    color: red;
+    font-size: 18px;
+
+}
+
+
+.tayble td:nth-child(3) {
+    background: blueviolet;
+    color: aliceblue;
+    font-size: 18px;
+
+}
+
+
+/*.tayble tr:nth-child(1) {
+    background: rgb(139, 51, 10);
+}
+
+
+.tayble tr:nth-child(2) {
+    background: rgb(139, 51, 10);
+}*/
+
+
+/*.tayble td:nth-child(1),
+.tayble td:nth-child(2) {  
+
+background: #000(0, 0, 0);
+}*/
+
+
+.img {
+    border-radius: 15%;
+}
+
+.contact h2{
+ text-align: center; 
+}
+
+.form-group label {
+display: block; /* Говорю label, что он теперь не строчный элемент, а Блочный! За счёт этого label выше inputa - сначало идёт label, а затем input*/
+font-size: 14px;
+color: #868686;
+}
+
+
+.form-group input,
+.form-group textarea { /* Эти же классы и задал к Тэгу - textarea, котрый тоже входит в class ="form-group" */
+width: 100%;
+box-sizing: border-box;
+border: none;
+background: transparent; /* inputam задал прозрачный цвет*/
+border-bottom: 1px solid #ccc;
+color: black;
+padding: 15px 0px 10px;
+outline: none; /* Абнулил чёрную грницы, которая высвечивалась при нажатии на input*/
+font-family: inherit; /* Указываю inpupu, чтобы он сохранял fjnt-family, который действует во всём моём проекте*/
+}
+
+.row {
+ display: flex;   
+ margin-bottom: 20px;
+}
+
+
+.row > .form-group { /* Тут уже через class ="row" Я оращаюсь к class="form-group" */
+width: 50%; /* Задаю form-group определённую ширину*/
+}
+
+
+.row > .form-group:first-child { /* first-child - первый элемент переводится*/
+margin-right: 20px; /* благодаря этому теперь между label и input есть расстояние - (в горизтнтальном плане имеется ввиду)*/   
+}
+
+
+
+.btn {
+ background: #000;   
+ padding: 15px 20px;
+ color: #fff;
+ border: none;
+ font-family: inherit;
+ cursor: pointer; /* Меняется Курсор */
+}
+
+.btn:hover {
+ opacity: 0.9;   
+}
+
+/*---------------------------------------------------------------------------*/
+
+
+/*.position {
+position: relative; /* Пишу, чтобы квадрат через absolute не выходил больше за границы!*/
+/*border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+}*/
+
+
+/*.box { /* Характеристики и действия Самого квадрата */
+/*position: static; /* Квалрат мой теперь никуда не улетает*/
+/*position: absolute; /* Из - за absolute class="position не видит моего теперь квадрата и он теперь выходит за рамки чёрных границ". 4 свойства могу использовать к  absolute:  */
+/*position: fixed; /* Теперь квадратом могу упрвлять по всему Полю Проекта! */
+/*width: 50px; 
+height: 50px ;
+background: lightcoral;
+top: 50px; /* Задаю Движение Квадрату
+left: 440px;
+right: 440px;
+bottom: 450px;
+border-radius: 50%;
+}*/
+
+
+
+/*.wrapper {
+min-height: 100vh;
+width: 100%;
+
+background-image: url(https://avatars.mds.yandex.net/i?id=bd94d68b6739af0db55e83d4e1d570ff70b0f5a9bc72c756-6160767-images-thumbs&n=13);
+background-size: auto 550px;
+/*background-repeat: repeat-x;  /*фон будет идти только по горизонтали*/
+/*background-repeat: repeat-y; /* фон будет идти только по вертикали*/
+/*background-repeat: no-repeat; /* фон будет обычным*/
+/*background-repeat: repeat;  /* проверь, афигеешь*/
+/*background-size: cover;*/
+/*background-size: contain; /* Мой любимый*/
+/*background-position: center; /* center - в центр блока поместил картинку*/
+/*background-position: right-bottom /* в нижнюю часть блока поместил теперь*/
+/*background-position: 500px 600px; /* фикирую по горизонтали или по вертикали, как мне надо */
+/*}*/
+
+
+
+/*background: burlywood;
+background-image: url(https://www.zastavki.com/pictures/originals/2014/Drawn_wallpapers_____Light_pattern_087799_.jpg)
+50% 50% no-repeat fixed; /* fixed - положение. Тоже самое, что выше - только в одну строку и упрощённо*/
+
+
+
+/*background: url(https://avatars.mds.yandex.net/i?id=8bd6519eb6ea2eacffc92bc770b5015e460548dc-4936012-images-thumbs&n=13)
+center no-repeat,
+url(https://avatars.mds.yandex.net/i?id=bd94d68b6739af0db55e83d4e1d570ff70b0f5a9bc72c756-6160767-images-thumbs&n=13);
+/*Тут маленькая картинка лолжна была быть на фоне большого фона - в итоге работает не так, как нужно*/
+/*}*/
